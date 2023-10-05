@@ -9,7 +9,7 @@ const PORT =  3000;
 require('dotenv').config();
 let api_key = process.env.API_KEY;
 const MODEL_NAME = "models/chat-bison-001";
-const API_KEY = "AIzaSyDbV6BwwPD6IUTPFj9Nmc1VQbukjtWYs5c"; // Replace with your actual API key
+const API_KEY = "API_KEY"; // Replace with your actual API key
 
 const client = new DiscussServiceClient({
   authClient: new GoogleAuth().fromAPIKey(API_KEY),
